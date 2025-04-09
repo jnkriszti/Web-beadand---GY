@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: #DBDBDB;
     color: #333;
 }
 
@@ -19,7 +19,8 @@ body {
 .hero .overlay {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 60px;
+    border: 2px solid;
     backdrop-filter: blur(10px);
     display: inline-block;
     max-width: 80%;
@@ -44,10 +45,35 @@ footer {
     padding: 15px 0;
 }
 
-.hero-reviews {
-    background: url('images/reviews-hero.jpg') no-repeat center center/cover;
+.nav-link.active {
+    font-weight: bold;
+    color: #99BC85 !important; /* pl. sötétebb barna */
+    text-decoration: underline;
+  }
+
+.lead {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    max-width: 700px;
+    color: #333;
 }
 
-.hero-contact {
-    background: url('images/contact-hero.jpg') no-repeat center center/cover;
+.bg-pastel {
+    background-color: #fdf1f0; 
+}
+
+.btn-pastel {
+    background-color: #99BC85 ;
+    border-color: grey;
+    color: #333;
+}
+
+.btn-pastel:hover {
+    background-color: #E4EFE7;
+    border-color: grey;
+    color: black;
+}
+
+.navbar{
+    background-color: #DBDBDB !important;
 }
